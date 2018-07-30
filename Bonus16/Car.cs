@@ -57,6 +57,16 @@ namespace Bonus16
 
         }
 
+        public Car()
+        {
+
+            make = "Dodge";
+            model = "Challenger";
+            year = 2018;
+            price = 27295.00;
+
+        }
+
     }
 
 }
