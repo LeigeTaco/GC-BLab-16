@@ -624,10 +624,15 @@ namespace Bonus16
 
             } while (AnothaOne());
 
+            Console.WriteLine("Here's your final list!");
+            Console.WriteLine("============================================");
             foreach (Car car in lot)
             {
 
                 //car.FormattedOut();
+                Console.WriteLine($"{car.Year, -9} {car.Make}");
+                Console.WriteLine($"${car.Price, -8} {car.Model}");
+                Console.WriteLine("--------------------------------------------");
 
             }
 
